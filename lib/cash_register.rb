@@ -13,8 +13,10 @@ class CashRegister
   end
 
   def add_item(title, price, quantities=1)
+    @array = []
     currenttotal = price*quantities
     @total += currenttotal
+    @array << title 
   end
 
   def apply_discount
