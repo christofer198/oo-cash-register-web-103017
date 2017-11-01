@@ -11,6 +11,9 @@ class CashRegister
     @discount
   end
 
+  def add_item
+  end
+
 
 
 
