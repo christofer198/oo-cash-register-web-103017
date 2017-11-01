@@ -15,7 +15,6 @@ class CashRegister
   def add_item(title, price, quantities=1)
     currenttotal = price*quantities
     @total += currenttotal
-    binding.pry
   end
 
 
