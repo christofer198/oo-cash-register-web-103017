@@ -16,8 +16,7 @@ class CashRegister
   def add_item(title, price, quantities=1)
     currenttotal = price*quantities
     @total += currenttotal
-
-    quantities.times do 
+    quantities.times do
       @array << title
     end
   end
@@ -29,7 +28,7 @@ class CashRegister
   end
 
   def items
-    
+
   end
 
 end
