@@ -4,7 +4,8 @@ class CashRegister
     @total = 0
   end
 
-
+  attr_accessor :total
+  
 
 
 end
