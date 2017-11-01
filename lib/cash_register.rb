@@ -8,4 +8,6 @@ class CashRegister
     return @total
   end
 
+  def 
+
 end
