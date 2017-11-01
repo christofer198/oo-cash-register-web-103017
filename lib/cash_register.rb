@@ -16,7 +16,10 @@ class CashRegister
   def add_item(title, price, quantities=1)
     currenttotal = price*quantities
     @total += currenttotal
-    @array << title
+
+    quantities.times do 
+      @array << title
+    end
   end
 
   def apply_discount
@@ -26,7 +29,7 @@ class CashRegister
   end
 
   def items
-    binding.pry
+    
   end
 
 end
