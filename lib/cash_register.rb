@@ -5,7 +5,7 @@ class CashRegister
   end
 
   attr_accessor :total
-  
+
 
 
 end
