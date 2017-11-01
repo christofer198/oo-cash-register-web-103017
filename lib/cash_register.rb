@@ -22,8 +22,6 @@ class CashRegister
     binding.pry
     return "After the discount, the total comes to $#{@total.to_i}." if discount > 0
     return "After the discount, the total comes to $0."
-
-
   end
 
 end
