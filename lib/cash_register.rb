@@ -30,8 +30,8 @@ class CashRegister
   end
 
   def void_last_transaction
-    binding.pry
-    #@total -=
+    
+    @total -= @total
   end
 
 end
