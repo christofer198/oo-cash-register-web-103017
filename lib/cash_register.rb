@@ -4,10 +4,9 @@ class CashRegister
     @total = total
   end
 
-  def total
-    return @total
+  def total=(total)
+    return total
   end
 
-  def 
 
 end
