@@ -17,7 +17,6 @@ class CashRegister
     currenttotal = price*quantities
     @total += currenttotal
     quantities.times{@array << title}
-    end
   end
 
   def apply_discount
